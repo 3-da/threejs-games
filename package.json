@@ -1,7 +1,7 @@
 {
   "scripts": {
     "serve": "node ./server/server.js",
-    "dev": "nodemon ./server/server.js"
+    "dev": "nodemon --watch 'start/**/*/.js' ./server/server.js"
   },
   "dependencies": {
     "express": "^4.21.0"
